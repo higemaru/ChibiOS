@@ -122,7 +122,11 @@
 #include "chmsg.h"
 
 /* OSLIB.*/
-#include "chlib.h"
+/* #include "chlib.h" */
+/* https://www.reddit.com/r/NuPhy/comments/1dsve0c/compiling_qmk_for_nuphy_keyboards_spoiler_alert/ */
+#include "../oslib/include/chlib.h"
+
+
 
 /* Headers dependent on the OSLIB.*/
 #include "chdynamic.h"
